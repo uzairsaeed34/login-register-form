@@ -3,12 +3,13 @@ import { Link, useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const usenavigate = useNavigate();
-  useEffect(()=>{
+  let username = sessionStorage.getItem('username') || '';
+  useEffect(() => {
     let username = sessionStorage.getItem('username');
     if(username==="" || username === null){
       usenavigate('/login');
     }
-  }, []);
+  }, [username]);
   return (
     <div>
       <div className="header">

@@ -19,15 +19,15 @@ const Registration = () => {
       isproceed = false;
       errormessage +='Username;'
     }
-    if(id === null || name === ''){
+    if(name === null || name === ''){
       isproceed = false;
       errormessage +=' Name;'
     }
-    if(id === null || email === ''){
+    if(email === null || email === ''){
       isproceed = false;
       errormessage += ' Email;'
     }
-    if(id === null || password === ''){
+    if(password === null || password === ''){
       isproceed = false;
       errormessage += ' Password;'
     }
@@ -117,7 +117,7 @@ const Registration = () => {
             </div>
             <div className='card-footer'>
               <button type='submit' className='btn btn-primary'>Register</button>
-              <a className='btn btn-danger' style={{ marginLeft: '10px' }}>Back</a>
+              <button className='btn btn-danger' style={{ marginLeft: '10px' }} to={'/login'}>Back</button>
             </div>
           </div>
         </form>

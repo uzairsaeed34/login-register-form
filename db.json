@@ -1,5 +1,5 @@
 {
-  "user": [
+  "user": [ 
     {
       "id": "admin1",
       "name": "Muhammad Uzair",
@@ -9,6 +9,20 @@
     },
     {
       "id": "admin123",
+      "name": "Muhammad Uzair",
+      "password": "admin",
+      "email": "uzairsaeed34k@gmail.com",
+      "address": "34 K block johar town Lahore"
+    },
+    {
+      "id": "uzair",
+      "name": "Muhammad Uzair",
+      "password": "uzair",
+      "email": "uzairsaeed34k@gmail.com",
+      "address": "34 K block johar town Lahore"
+    },
+    {
+      "id": "admin1234",
       "name": "Muhammad Uzair",
       "password": "admin",
       "email": "uzairsaeed34k@gmail.com",
