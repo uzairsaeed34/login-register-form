@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "id": "admin1",
+      "name": "Muhammad Uzair",
+      "password": "admin",
+      "email": "uzairsaeed34k@gmail.com",
+      "address": "34 K block johar town Lahore"
+    },
+    {
+      "id": "admin123",
+      "name": "Muhammad Uzair",
+      "password": "admin",
+      "email": "uzairsaeed34k@gmail.com",
+      "address": "34 K block johar town Lahore"
+    }
+  ]
+}
